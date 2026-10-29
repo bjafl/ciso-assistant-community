@@ -77,10 +77,9 @@ objects:
               description: Un solo criterio è soddisfatto. La DPIA non è automaticamente obbligatoria, ma per prudenza la verifica preliminare la indica come necessaria; modificare manualmente l'esito se il RPD/DPO valuta diversamente.
             nb:
               label: DPIA anbefales
-              description: Ett kriterium er oppfylt. En DPIA er ikke påkrevd, men
-                screeningen er føre var og markerer den som påkrevd. Endre
-                utfallet manuelt hvis personvernombudet vurderer det
-                annerledes.
+              description: Ett kriterium er oppfylt. En DPIA er ikke automatisk påkrevd,
+                men screeningen er føre var og markerer den som påkrevd. Endre utfallet
+                manuelt hvis personvernombudet vurderer det annerledes.
           color: '#ea580c'
           description: One criterion is met. A DPIA is not mandatory, but the screening errs on the safe side and marks it required; set it manually if the DPO decides otherwise.
           expression: 'response.score_sum == 1'
@@ -141,18 +140,12 @@ objects:
                 dell'articolo 35, paragrafo 1, del GDPR occorre poterla motivare.
             nb:
               name: Identifisering av behandlingen
-              description: '# Screening før DPIA
-            
-            
-                Dette korte skjemaet dokumenterer **hvorfor** en DPIA kreves eller
-                ikke kreves for en
-            
-                behandling. Ta vare på det utfylte svaret som dokumentasjon på beslutningen
-                – etter
-            
-                GDPR art. 35 nr. 1 må du kunne begrunne den.
-            
-                '
+              description: |
+                # Screening før DPIA
+
+                Dette korte skjemaet dokumenterer **hvorfor** en DPIA kreves eller ikke kreves for en
+                behandling. Ta vare på det utfylte svaret som dokumentasjon på beslutningen – du må kunne
+                begrunne den, jf. GDPR art. 35 nr. 1 og ansvarsprinsippet i art. 5 nr. 2.
           description: |
             # Pre-DPIA screening
 
@@ -345,8 +338,8 @@ objects:
                     it:
                       value: Dati sensibili o di natura altamente personale
                     nb:
-                      value: Særlige kategorier av personopplysninger eller opplysninger
-                        av svært personlig karakter
+                      value: Særlige kategorier av opplysninger eller opplysninger av
+                        svært personlig karakter
                   add_score: 1
                 - urn: urn:intuitem:risk:qf_page:pre-dpia-screening:criteria:question:criteria:choice:large_scale
                   value: Data processed on a large scale
@@ -399,8 +392,8 @@ objects:
                     it:
                       value: Trattamento che impedisce agli interessati di esercitare un diritto o di accedere a un servizio
                     nb:
-                      value: Behandling som hindrer de registrerte i å utøve en rettighet
-                        eller bruke en tjeneste
+                      value: Behandling som hindrer de registrerte i å utøve en
+                        rettighet eller gjøre bruk av en tjeneste eller en avtale
                   add_score: 1
                 - urn: urn:intuitem:risk:qf_page:pre-dpia-screening:criteria:question:criteria:choice:none
                   value: None of these criteria applies
@@ -458,15 +451,10 @@ objects:
                 dall'obbligo di DPIA.
             nb:
               name: Unntak
-              description: 'Det ser ut til at en DPIA kreves. Før du går videre, sjekk
-                om behandlingen står på en
-            
-                liste fra tilsynsmyndigheten over behandlinger som er **unntatt**
-                fra DPIA (for eksempel
-            
-                CNILs liste).
-            
-                '
+              description: |
+                Det ser ut til at en DPIA kreves. Før du går videre, sjekk om behandlingen står på en
+                liste fra tilsynsmyndigheten over behandlinger som er **unntatt** fra DPIA (art. 35 nr. 5,
+                for eksempel CNILs liste).
           visibility_expression: 'response.score_sum >= 2'
           description: |
             A DPIA looks required. Before proceeding, check whether the processing
@@ -500,8 +488,9 @@ objects:
                     it:
                       value: Il trattamento si fonda su una base giuridica per la quale il legislatore ha già effettuato una DPIA
                     nb:
-                      value: Behandlingen har et rettslig grunnlag der lovgiver allerede
-                        har gjennomført en DPIA
+                      value: Behandlingen har grunnlag i art. 6 nr. 1 bokstav c eller e,
+                        og en DPIA ble gjort da rettsgrunnlaget ble vedtatt (art. 35 nr.
+                        10)
                 - urn: urn:intuitem:risk:qf_page:pre-dpia-screening:exemption:question:exemption:choice:list
                   value: Processing appears on the supervisory authority's exemption list
                   translations:
