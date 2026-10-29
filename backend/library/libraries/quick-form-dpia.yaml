@@ -332,7 +332,8 @@ objects:
             fra behandlingens oppføring: de neste sidene viser dem slik at du kan vurdere dem.
 
 
-            Ta vare på det utfylte svaret som dokumentasjon av vurderingen: GDPR art. 35 krever det.'
+            Ta vare på det utfylte svaret som dokumentasjon av vurderingen, jf. GDPR art. 35 nr. 7 og
+            ansvarsprinsippet i art. 5 nr. 2.'
     - urn: urn:intuitem:risk:qf_page:dpia:data
       ref_id: data
       name: 'Context: data, processes and supports'
@@ -531,7 +532,8 @@ objects:
               text: Come possono gli interessati esercitare i diritti di limitazione del trattamento e
                 di opposizione?
             nb:
-              text: Hvordan kan de registrerte utøve retten til begrensning og retten til å protestere?
+              text: Hvordan kan de registrerte utøve retten til begrensning av behandling og retten til
+                å protestere?
         urn:intuitem:risk:qf_page:dpia:rights:question:processors:
           type: text
           text: Is a contract setting out their obligations in place with each of these parties?

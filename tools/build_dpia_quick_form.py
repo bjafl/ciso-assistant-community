@@ -619,7 +619,8 @@ NB = {
     "its record: the following pages show them for you to assess.\n\n"
     "Keep the completed response as the record of the assessment: Article 35 GDPR requires it.": "Velg behandlingen som vurderes. Formål, opplysninger, parter og tiltak hentes fra "
     "behandlingens oppføring: de neste sidene viser dem slik at du kan vurdere dem.\n\n"
-    "Ta vare på det utfylte svaret som dokumentasjon av vurderingen: GDPR art. 35 krever det.",
+    "Ta vare på det utfylte svaret som dokumentasjon av vurderingen, jf. GDPR art. 35 nr. 7 og "
+    "ansvarsprinsippet i art. 5 nr. 2.",
     "Processing": "Behandling",
     "What benefits are expected from the processing, and in what context is it used?": "Hvilke fordeler ventes av behandlingen, og i hvilken sammenheng brukes den?",
     "Which standards apply to the processing? (approved codes of conduct, certifications…)": "Hvilke normer gjelder for behandlingen? (godkjente atferdsnormer, sertifiseringer …)",
@@ -640,7 +641,7 @@ NB = {
     "If applicable, how is the data subjects' consent obtained?": "Hvis det er aktuelt: Hvordan innhentes samtykke fra de registrerte?",
     "How can data subjects exercise their rights of access and to data portability?": "Hvordan kan de registrerte utøve retten til innsyn og dataportabilitet?",
     "How can data subjects exercise their rights to rectification and erasure?": "Hvordan kan de registrerte utøve retten til retting og sletting?",
-    "How can data subjects exercise their rights to restriction and to object?": "Hvordan kan de registrerte utøve retten til begrensning og retten til å protestere?",
+    "How can data subjects exercise their rights to restriction and to object?": "Hvordan kan de registrerte utøve retten til begrensning av behandling og retten til å protestere?",
     "Is a contract setting out their obligations in place with each of these parties?": "Er det inngått en avtale med hver av disse partene som fastsetter pliktene deres?",
     "Do the safeguards listed protect the data transferred outside the EU adequately?": "Gir garantiene som er oppført, tilstrekkelig vern for opplysninger som overføres ut av EU/EØS?",
     "Risks: existing or planned measures": "Risiko: eksisterende eller planlagte tiltak",
