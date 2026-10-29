@@ -9457,9 +9457,10 @@ objects:
             for arkivformål i allmennhetens interesse, for formål knyttet til vitenskapelig
             eller historisk forskning eller for statistiske formål skal, i samsvar med artikkel
             89 nr. 1, ikke anses som uforenlig med de opprinnelige formålene («formålsbegrensning»),
-          annotation: Opplysningene kan brukes senere dersom det nye formålet er forenlig
-            med det opprinnelige (fortalepunkt 50). Det gjelder særlig statistiske undersøkelser,
-            der resultatene er aggregerte og ikke er personopplysninger (fortalepunkt 162).
+          annotation: Opplysningene kan viderebehandles dersom det nye formålet er
+            forenlig med det opprinnelige (fortalepunkt 50). Det gjelder særlig
+            statistiske formål, der resultatene er aggregerte og ikke er
+            personopplysninger (fortalepunkt 162).
     - urn: urn:intuitem:risk:req_node:gdpr:5.1.c
       assessable: true
       depth: 4
@@ -10040,8 +10041,8 @@ objects:
             mulig hensyn til blant annet om oppfyllelse av en avtale, herunder om yting av
             en tjeneste, er gjort betinget av samtykke til behandling av personopplysninger
             som ikke er nødvendig for å oppfylle nevnte avtale.
-          annotation: Presentere hvert formål for seg og innhente et særskilt samtykke for
-            hvert av dem
+          annotation: Presentere hvert formål for seg og innhente et separat samtykke
+            for hvert av dem
     - urn: urn:intuitem:risk:req_node:gdpr:article-8
       assessable: false
       depth: 2
@@ -12212,7 +12213,8 @@ objects:
         nb:
           description: 'Den registrerte skal ha rett til å kreve av den behandlingsansvarlige
             at behandlingen begrenses dersom et av de følgende forhold gjør seg gjeldende:'
-          annotation: Den behandlingsansvarlige må etterkomme kravet om begrensning.
+          annotation: Den behandlingsansvarlige må etterkomme kravet om begrensning av
+            behandlingen.
     - urn: urn:intuitem:risk:req_node:gdpr:18.1.a
       assessable: true
       depth: 5
@@ -17245,10 +17247,10 @@ objects:
         
             Her er lenken til gjennomføringsrettsakten: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32021D0914
         
-            EU-domstolen slo i Schrems II-saken fast at standardavtaler (SCC-er) som hovedregel
-            kan brukes ved overføring til tredjestater. Domstolen understreket likevel at
-            eksportører og importører av data må vurdere om lovgivningen i tredjestaten sikrer
-            det beskyttelsesnivået EU-retten og garantiene i standardavtalene krever.'
+            EU-domstolen slo i Schrems II-saken fast at standard personvernbestemmelser (SCC-er)
+            som hovedregel kan brukes ved overføring til tredjestater. Domstolen understreket
+            likevel at eksportører og importører av data må vurdere om lovgivningen i tredjestaten
+            sikrer det beskyttelsesnivået EU-retten og garantiene i disse bestemmelsene krever.'
     - urn: urn:intuitem:risk:req_node:gdpr:45.2
       assessable: false
       depth: 3
@@ -17600,10 +17602,11 @@ objects:
             til en tredjestat eller en internasjonal organisasjon bare dersom den behandlingsansvarlige
             eller databehandleren har gitt nødvendige garantier, og under forutsetning av
             at de registrerte har håndhevbare rettigheter og effektive rettsmidler.
-          annotation: EU-domstolen slo i Schrems II-saken fast at standardavtaler (SCC-er)
-            som hovedregel kan brukes ved overføring til tredjestater. Domstolen understreket
-            likevel at eksportører og importører av data må vurdere om lovgivningen i tredjestaten
-            sikrer det beskyttelsesnivået EU-retten og garantiene i standardavtalene krever.
+          annotation: EU-domstolen slo i Schrems II-saken fast at standard
+            personvernbestemmelser (SCC-er) som hovedregel kan brukes ved overføring til
+            tredjestater. Domstolen understreket likevel at eksportører og importører av
+            data må vurdere om lovgivningen i tredjestaten sikrer det beskyttelsesnivået
+            EU-retten og garantiene i disse bestemmelsene krever.
     - urn: urn:intuitem:risk:req_node:gdpr:46.2
       assessable: true
       depth: 3
@@ -25338,6 +25341,6 @@ objects:
         sv:
           description: "Denna f\xF6rordning \xE4r till alla delar bindande och direkt\
             \ till\xE4mplig i alla medlemsstater."
-
         nb:
-          description: For EuropaparlamentetFor RådetM. SCHULZJ.A. HENNIS-PLASSCHAERTFormannPresident
+          description: Denne forordning er bindende i alle deler og kommer direkte til
+            anvendelse i alle medlemsstater.
