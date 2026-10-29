@@ -56,7 +56,7 @@ objects:
             propriétés des supports.
         nb:
           name: Begrenset
-          description: Den uønskede hendelsen virker vanskelig å fremkalle ut fra
+          description: Den uønskede hendelsen virker vanskelig å utløse ut fra
             egenskapene til støtteverdiene.
       hexcolor: '#DDE8C8'
     - id: 2
@@ -86,7 +86,7 @@ objects:
             propriétés des supports.
         nb:
           name: Maksimal
-          description: Den uønskede hendelsen virker lett å fremkalle ut fra egenskapene
+          description: Den uønskede hendelsen virker lett å utløse ut fra egenskapene
             til støtteverdiene.
       hexcolor: '#A4C170'
     impact:
@@ -175,8 +175,8 @@ objects:
             mise en œuvre du traitement.
         nb:
           name: Må reduseres
-          description: Ytterligere tiltak bør redusere risikoen før behandlingen settes
-            i gang.
+          description: Risikoen må reduseres med ytterligere tiltak før behandlingen
+            settes i gang.
       hexcolor: '#FEF08A'
     - id: 2
       abbreviation: U
@@ -190,8 +190,8 @@ objects:
             de contrôle.
         nb:
           name: Uakseptabel
-          description: Risikoen er ikke akseptabel. Reduser den, eller rådfør deg
-            med tilsynsmyndigheten.
+          description: Risikoen er ikke akseptabel. Reduser den, eller forhåndsdrøft
+            behandlingen med tilsynsmyndigheten.
       hexcolor: '#FCA5A5'
     grid:
     - - 0

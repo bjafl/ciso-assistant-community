@@ -78,8 +78,9 @@ objects:
             nb:
               label: DPIA anbefales
               description: Ett kriterium er oppfylt. En DPIA er ikke påkrevd, men
-                screeningen velger det sikre og markerer den som påkrevd. Endre det
-                manuelt hvis personvernombudet bestemmer noe annet.
+                screeningen er føre var og markerer den som påkrevd. Endre
+                utfallet manuelt hvis personvernombudet vurderer det
+                annerledes.
           color: '#ea580c'
           description: One criterion is met. A DPIA is not mandatory, but the screening errs on the safe side and marks it required; set it manually if the DPO decides otherwise.
           expression: 'response.score_sum == 1'
@@ -344,8 +345,8 @@ objects:
                     it:
                       value: Dati sensibili o di natura altamente personale
                     nb:
-                      value: Sensitive opplysninger eller opplysninger av svært personlig
-                        karakter
+                      value: Sensitive personopplysninger eller opplysninger av svært
+                        personlig karakter
                   add_score: 1
                 - urn: urn:intuitem:risk:qf_page:pre-dpia-screening:criteria:question:criteria:choice:large_scale
                   value: Data processed on a large scale
@@ -387,8 +388,8 @@ objects:
                     it:
                       value: Utilizzo innovativo o applicazione di nuove soluzioni tecnologiche od organizzative
                     nb:
-                      value: Innovativ bruk eller nye teknologiske eller organisatoriske
-                        løsninger
+                      value: Innovativ bruk eller anvendelse av nye teknologiske eller
+                        organisatoriske løsninger
                   add_score: 1
                 - urn: urn:intuitem:risk:qf_page:pre-dpia-screening:criteria:question:criteria:choice:prevents_rights
                   value: Processing that prevents data subjects from exercising a right or using a service
@@ -433,7 +434,7 @@ objects:
                   text: Documento a supporto
                   annotation: Un messaggio di posta elettronica o un PDF a supporto della decisione, ad esempio il parere del RPD/DPO.
                 nb:
-                  text: Støttedokument
+                  text: Dokumentasjon
                   annotation: En e-post eller en PDF som underbygger beslutningen,
                     for eksempel personvernombudets råd.
               required: false

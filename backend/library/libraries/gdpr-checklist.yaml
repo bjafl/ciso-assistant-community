@@ -261,13 +261,14 @@ objects:
         nb:
           name: Gi tydelig informasjon om behandlingen og behandlingsgrunnlaget i
             personvernerklæringen.
-          description: Dere må fortelle folk at dere samler inn opplysninger om dem,
-            og hvorfor (art. 12). Forklar hvordan opplysningene behandles, hvem som
-            har tilgang til dem, og hvordan dere sikrer dem. Denne informasjonen bør
-            stå i personvernerklæringen og gis til de registrerte når opplysningene
-            samles inn. Den skal gis «i en kortfattet, åpen, forståelig og lett tilgjengelig
-            form og på et klart og enkelt språk, særlig dersom informasjonen er rettet
-            mot et barn».
+          description: Dere må fortelle folk at dere samler inn opplysninger om dem, og
+            hvorfor (art. 12). Forklar hvordan opplysningene behandles, hvem
+            som har tilgang til dem, og hvordan dere sikrer dem. Denne
+            informasjonen bør stå i personvernerklæringen og gis til de
+            registrerte når opplysningene samles inn. Den skal gis «på en
+            kortfattet, åpen, forståelig og lett tilgjengelig måte og på et
+            klart og enkelt språk, især når det gjelder informasjon som
+            spesifikt er rettet mot et barn».
     - urn: urn:intuitem:risk:req_node:gdpr-checklist:node6
       assessable: false
       depth: 1
@@ -420,8 +421,8 @@ objects:
             es personnelles et les employ\xE9s non techniques doivent recevoir une\
             \ formation suppl\xE9mentaire sur les exigences du RGPD."
         nb:
-          name: Lag en intern sikkerhetspolicy for de ansatte, og bygg bevissthet
-            om personvern.
+          name: Lag en intern sikkerhetspolicy for de ansatte, og øk bevisstheten om
+            personvern.
           description: Selv om den tekniske sikkerheten er god, kan den operative
             sikkerheten være et svakt ledd. Lag en sikkerhetspolicy som sørger for
             at de ansatte har kunnskap om informasjonssikkerhet. Den bør gi veiledning
@@ -1037,9 +1038,11 @@ objects:
         nb:
           name: Tar dere avgjørelser om personer basert på automatiserte prosesser,
             har dere en prosedyre for å ivareta rettighetene deres.
-          description: Noen typer virksomheter bruker automatiserte prosesser (art.
-            22) til å ta avgjørelser om personer som har rettsvirkning eller «på tilsvarende
-            måte betydelig påvirker» dem. Gjelder det dere, må dere ha en prosedyre
-            som ivaretar rettighetene, frihetene og de berettigede interessene deres.
-            Det må være enkelt for folk å be om menneskelig inngripen, å uttale seg
-            om avgjørelser og å bestride avgjørelser som allerede er tatt.
+          description: Noen typer virksomheter bruker automatiserte prosesser (art. 22)
+            til å ta avgjørelser om personer som har rettsvirkning for dem
+            eller «på tilsvarende måte i betydelig grad påvirker» dem.
+            Gjelder det dere, må dere ha en prosedyre som ivaretar
+            rettighetene, frihetene og de berettigede interessene deres. Det
+            må være enkelt for folk å be om menneskelig inngripen, å uttale
+            seg om avgjørelser og å bestride avgjørelser som allerede er
+            tatt.

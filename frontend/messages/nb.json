@@ -3394,7 +3394,7 @@
 	"personalDataDescription": "Oversikt over og klassifisering av personopplysninger",
 	"purposesDescription": "Formål med behandlingen (GDPR)",
 	"rightRequestsDescription": "Forespørsler om de registrertes rettigheter (GDPR)",
-	"dataBreachesDescription": "Personvernbrudd og meldinger om dem",
+	"dataBreachesDescription": "Personvernbrudd og tilhørende meldinger",
 	"gdpr": "GDPR / personvern",
 	"gdprDescription": "Funksjoner for personvern og etterlevelse av GDPR",
 	"orderedEntryListAddNewEntry": "Legg til ny oppføring",

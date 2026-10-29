@@ -610,7 +610,7 @@ NB = {
     "behandlingens DPIA, og tiltakene som er valgt, legges til behandlingen.",
     "DPIA": "DPIA",
     "Data protection impact assessment of a processing.": "Vurdering av personvernkonsekvensene av en behandling.",
-    "Residual risk unacceptable: consult the supervisory authority": "Restrisiko uakseptabel: rådfør deg med tilsynsmyndigheten",
+    "Residual risk unacceptable: consult the supervisory authority": "Restrisiko uakseptabel: forhåndsdrøft med tilsynsmyndigheten",
     "A risk stays unacceptable once the planned measures are in place. Article 36 GDPR "
     "requires prior consultation of the supervisory authority.": "En risiko er fortsatt uakseptabel når de planlagte tiltakene er på plass. GDPR art. 36 "
     "krever forhåndsdrøfting med tilsynsmyndigheten.",
@@ -641,7 +641,7 @@ NB = {
     "How can data subjects exercise their rights of access and to data portability?": "Hvordan kan de registrerte utøve retten til innsyn og dataportabilitet?",
     "How can data subjects exercise their rights to rectification and erasure?": "Hvordan kan de registrerte utøve retten til retting og sletting?",
     "How can data subjects exercise their rights to restriction and to object?": "Hvordan kan de registrerte utøve retten til begrensning og retten til å protestere?",
-    "Is a contract setting out their obligations in place with each of these parties?": "Finnes det en avtale som fastsetter pliktene til hver av disse partene?",
+    "Is a contract setting out their obligations in place with each of these parties?": "Er det inngått en avtale med hver av disse partene som fastsetter pliktene deres?",
     "Do the safeguards listed protect the data transferred outside the EU adequately?": "Gir garantiene som er oppført, tilstrekkelig vern for opplysninger som overføres ut av EU/EØS?",
     "Risks: existing or planned measures": "Risiko: eksisterende eller planlagte tiltak",
     "The measures the processing already has, existing or planned. Each is an applied "
@@ -664,12 +664,12 @@ NB = {
     "Justify the likelihood": "Begrunn sannsynligheten",
     "Severity once the planned measures are implemented": "Alvorlighet når de planlagte tiltakene er gjennomført",
     "Likelihood once the planned measures are implemented": "Sannsynlighet når de planlagte tiltakene er gjennomført",
-    "Risks: by-design risks": "Risiko: innebygd risiko",
+    "Risks: by-design risks": "Risiko: utformingsrisiko",
     "Risks the processing creates for data subjects even when everything works as intended "
     "(profiling, excessive monitoring, unfair automated decisions…), beyond security incidents.": "Risiko som behandlingen skaper for de registrerte selv når alt fungerer som tiltenkt "
     "(profilering, overdreven overvåking, urettferdige automatiserte avgjørelser …), utover "
     "sikkerhetshendelser.",
-    "Which risks does the processing create by design?": "Hvilken risiko skaper behandlingen i seg selv?",
+    "Which risks does the processing create by design?": "Hvilken risiko skaper behandlingen gjennom selve utformingen?",
     "Which measures treat them?": "Hvilke tiltak håndterer den?",
     "Validation": "Godkjenning",
     "Record the opinions sought and the decision on the processing.": "Registrer rådene som er innhentet, og beslutningen om behandlingen.",
@@ -678,10 +678,10 @@ NB = {
     "What are the views of the data subjects or their representatives?": "Hva mener de registrerte eller deres representanter?",
     "If their views were not sought, why not?": "Hvis synspunktene deres ikke ble innhentet: Hvorfor ikke?",
     "Decision": "Beslutning",
-    "Proceed": "Gjennomfør",
-    "Proceed with conditions": "Gjennomfør på vilkår",
-    "Consult the supervisory authority": "Rådfør deg med tilsynsmyndigheten",
-    "Abandon": "Avstå fra behandlingen",
+    "Proceed": "Gå videre",
+    "Proceed with conditions": "Gå videre med vilkår",
+    "Consult the supervisory authority": "Forhåndsdrøft med tilsynsmyndigheten",
+    "Abandon": "Ikke gå videre",
     "Conditions and action plan": "Vilkår og handlingsplan",
 }
 for _en, _what in (
