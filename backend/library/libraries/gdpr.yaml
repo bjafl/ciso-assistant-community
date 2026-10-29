@@ -10103,9 +10103,10 @@ objects:
         nb:
           description: For disse formål kan medlemsstatene ved lov fastsette en lavere aldersgrense,
             forutsatt at den ikke er lavere enn 13 år.
-          annotation: Aldersgrensen for samtykke er 13 år i Norge (personopplysningsloven
-            § 5), Estland, Danmark, Belgia, Irland, Finland, Polen, Latvia, Spania, Portugal,
-            Storbritannia og Sverige, 15 år i Frankrike, 16 år i Tyskland og 14 år i Italia
+          annotation: Aldersgrensen for samtykke er 13 år i Norge
+            (personopplysningsloven § 5). Andre EØS-land har satt grensen mellom 13 og
+            16 år. Virksomheter som tilbyr tjenester i flere land, må kontrollere
+            aldersgrensen i hvert lands nasjonale rett.
     - urn: urn:intuitem:risk:req_node:gdpr:8.2
       assessable: true
       depth: 3
@@ -12081,14 +12082,14 @@ objects:
             som behandler personopplysningene, om at den registrerte har anmodet om at nevnte
             behandlingsansvarlige skal slette alle lenker til, kopier eller reproduksjoner
             av nevnte personopplysninger.
-          annotation: 'Innføre tiltak som sikrer at disse lenkene ikke er tilgjengelige innenfra
-            EU, om nødvendig.
-        
-        
-            I dommen fra EU-domstolen i saken Google mot CNIL (2019) C-507/17 heter det at
-            domstolen eller tilsynsmyndigheten kan pålegge søkemotoroperatøren å fjerne resultatet
-            fra søkemotorens nasjonale utgaver, men også, om nødvendig, fra utgavene for alle
-            EUs medlemsstater.'
+          annotation: 'Innføre tiltak som sikrer at disse lenkene ikke er tilgjengelige
+            innenfra EU, om nødvendig.
+
+
+            I dommen fra EU-domstolen i saken Google mot CNIL (2019) C-507/17 heter det
+            at en nasjonal domstol eller tilsynsmyndighet kan pålegge
+            søkemotoroperatøren å fjerne resultatet fra søkemotorens nasjonale utgaver,
+            men også, om nødvendig, fra utgavene for alle EUs medlemsstater.'
     - urn: urn:intuitem:risk:req_node:gdpr:17.3
       assessable: true
       depth: 4
@@ -12759,8 +12760,10 @@ objects:
             gjennomføre egnede tiltak for å verne den registrertes rettigheter og friheter
             og berettigede interesser, i det minste retten til menneskelig inngripen fra den
             behandlingsansvarlige, til å uttrykke sine synspunkter og til å bestride avgjørelsen.
-          annotation: Innføre systemer og tekniske prosesser som lar de registrerte utøve
-            retten til å protestere på en automatisert måte.
+          annotation: Innføre systemer og tekniske prosesser som gjør det enkelt for de
+            registrerte å utøve retten til menneskelig inngripen fra den
+            behandlingsansvarlige, til å uttrykke sine synspunkter og til å bestride
+            avgjørelsen.
     - urn: urn:intuitem:risk:req_node:gdpr:22.4
       assessable: false
       depth: 4
@@ -17234,23 +17237,29 @@ objects:
             en eller flere angitte sektorer i nevnte tredjestat eller den aktuelle internasjonale
             organisasjonen sikrer et tilstrekkelig beskyttelsesnivå. En slik overføring skal
             ikke kreve en særlig godkjenning.
-          annotation: 'Europakommisjonen har myndighet til å avgjøre om et land utenfor EU
-            har et tilstrekkelig beskyttelsesnivå for personopplysninger.
-        
-            Europakommisjonen har så langt anerkjent Andorra, Argentina, Canada (kommersielle
-            organisasjoner), Færøyene, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand,
-            Republikken Korea, Sveits, Storbritannia etter GDPR og LED, USA (kommersielle
-            organisasjoner som deltar i EU-US Data Privacy Framework) og Uruguay som land
-            med tilstrekkelig beskyttelse.
-        
+          annotation: 'Europakommisjonen kan avgjøre om en tredjestat (et land utenfor
+            EU/EØS), et territorium, en eller flere angitte sektorer i en tredjestat
+            eller en internasjonal organisasjon sikrer et tilstrekkelig beskyttelsesnivå
+            (beslutning om tilstrekkelig beskyttelsesnivå, art. 45 nr. 1).
+
+            Europakommisjonen har så langt anerkjent Andorra, Argentina, Canada
+            (kommersielle organisasjoner), Færøyene, Guernsey, Israel, Isle of Man,
+            Japan, Jersey, New Zealand, Republikken Korea, Sveits, Storbritannia etter
+            GDPR og politidirektivet (LED), USA (kommersielle organisasjoner som deltar
+            i EU-US Data Privacy Framework) og Uruguay som land med tilstrekkelig
+            beskyttelse.
+
             https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en
-        
-            Her er lenken til gjennomføringsrettsakten: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32021D0914
-        
-            EU-domstolen slo i Schrems II-saken fast at standard personvernbestemmelser (SCC-er)
-            som hovedregel kan brukes ved overføring til tredjestater. Domstolen understreket
-            likevel at eksportører og importører av data må vurdere om lovgivningen i tredjestaten
-            sikrer det beskyttelsesnivået EU-retten og garantiene i disse bestemmelsene krever.'
+
+            Her er lenken til gjennomføringsbeslutning (EU) 2021/914 om standard
+            personvernbestemmelser:
+            https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32021D0914
+
+            EU-domstolen slo i Schrems II-saken fast at standard personvernbestemmelser
+            (SCC-er) som hovedregel kan brukes ved overføring til tredjestater.
+            Domstolen understreket likevel at eksportører og importører av data må
+            vurdere om lovgivningen i tredjestaten sikrer det beskyttelsesnivået
+            EU-retten og garantiene i disse bestemmelsene krever.'
     - urn: urn:intuitem:risk:req_node:gdpr:45.2
       assessable: false
       depth: 3
