@@ -211,14 +211,14 @@ objects:
             \ des facteurs relatifs \xE0 la vie priv\xE9e."
         nb:
           name: Ha et rettslig grunnlag for behandlingsaktivitetene.
-          description: Behandling av personopplysninger er ulovlig etter GDPR med
-            mindre den har grunnlag i ett av de seks vilkårene i art. 6. Art. 7–11
-            har flere bestemmelser om barn og særlige kategorier av personopplysninger.
-            Gå gjennom disse bestemmelsene, velg et behandlingsgrunnlag og dokumenter
-            begrunnelsen. Merk at samtykke som behandlingsgrunnlag gir ekstra plikter,
-            blant annet at de registrerte til enhver tid skal kunne trekke samtykket
-            tilbake. Bruker dere «berettiget interesse» som behandlingsgrunnlag, må
-            dere kunne vise at dere har gjort en vurdering av personvernkonsekvenser.
+          description: Behandling av personopplysninger er ulovlig etter GDPR med mindre
+            den har grunnlag i ett av de seks vilkårene i art. 6. Art. 7–11 har flere
+            bestemmelser om barn og særlige kategorier av personopplysninger. Gå gjennom
+            disse bestemmelsene, velg et behandlingsgrunnlag og dokumenter begrunnelsen.
+            Merk at samtykke som behandlingsgrunnlag gir ekstra plikter, blant annet at
+            de registrerte til enhver tid skal kunne trekke samtykket tilbake. Bruker
+            dere «berettigede interesser» som behandlingsgrunnlag, må dere kunne vise at
+            dere har gjort en vurdering av personvernkonsekvenser.
     - urn: urn:intuitem:risk:req_node:gdpr-checklist:node5
       assessable: true
       depth: 2
@@ -478,13 +478,14 @@ objects:
         nb:
           name: Vit når dere skal gjennomføre en vurdering av personvernkonsekvenser,
             og ha en prosess for å gjennomføre den.
-          description: En vurdering av personvernkonsekvenser (DPIA) hjelper dere
-            å forstå hvordan produktet eller tjenesten deres kan sette kundenes opplysninger
-            i fare, og hvordan dere kan redusere den risikoen. Det britiske datatilsynet
-            (ICO) har en sjekkliste for DPIA på nettsidene sine. GDPR krever at virksomheter
-            gjør en slik analyse når de planlegger å bruke personopplysninger på en
-            måte som «sannsynligvis vil medføre en høy risiko for [deres] rettigheter
-            og friheter». ICO anbefaler å gjøre det hver gang dere skal behandle personopplysninger.
+          description: En vurdering av personvernkonsekvenser (DPIA) hjelper dere å
+            forstå hvordan produktet eller tjenesten deres kan sette kundenes
+            opplysninger i fare, og hvordan dere kan redusere den risikoen. Det britiske
+            datatilsynet (ICO) har en sjekkliste for DPIA på nettsidene sine. GDPR
+            krever at virksomheter gjør en slik analyse når de planlegger å bruke
+            personopplysninger på en måte der det er sannsynlig at det «vil medføre en
+            høy risiko for fysiske personers rettigheter og friheter». ICO anbefaler å
+            gjøre det hver gang dere skal behandle personopplysninger.
     - urn: urn:intuitem:risk:req_node:gdpr-checklist:node11
       assessable: true
       depth: 2

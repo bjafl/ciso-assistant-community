@@ -334,7 +334,7 @@ objects:
                     it:
                       value: Monitoraggio sistematico, anche di aree accessibili al pubblico
                     nb:
-                      value: Systematisk overvåking, også av offentlig tilgjengelige
+                      value: Systematisk monitorering, også av offentlig tilgjengelige
                         områder
                   add_score: 1
                 - urn: urn:intuitem:risk:qf_page:pre-dpia-screening:criteria:question:criteria:choice:sensitive_data
@@ -345,8 +345,8 @@ objects:
                     it:
                       value: Dati sensibili o di natura altamente personale
                     nb:
-                      value: Sensitive personopplysninger eller opplysninger av svært
-                        personlig karakter
+                      value: Særlige kategorier av personopplysninger eller opplysninger
+                        av svært personlig karakter
                   add_score: 1
                 - urn: urn:intuitem:risk:qf_page:pre-dpia-screening:criteria:question:criteria:choice:large_scale
                   value: Data processed on a large scale
