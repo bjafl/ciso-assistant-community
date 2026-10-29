@@ -137,7 +137,7 @@ objects:
               degli asset di supporto.
           nb:
             label: Begrenset
-            description: Den uønskede hendelsen virker vanskelig å fremkalle ut fra egenskapene til støtteverdiene.
+            description: Den uønskede hendelsen virker vanskelig å utløse ut fra egenskapene til støtteverdiene.
       - ref_id: significant
         label: Significant
         description: The feared event seems possible given the properties of the supporting assets.
@@ -167,7 +167,7 @@ objects:
               asset di supporto.
           nb:
             label: Maksimal
-            description: Den uønskede hendelsen virker lett å fremkalle ut fra egenskapene til støtteverdiene.
+            description: Den uønskede hendelsen virker lett å utløse ut fra egenskapene til støtteverdiene.
     outcomes_definition:
     - ref_id: privacy_risk
       kind: rating
@@ -210,7 +210,7 @@ objects:
             description: Prima di avviare il trattamento, occorre ridurre il rischio mediante misure aggiuntive.
           nb:
             label: Må reduseres
-            description: Ytterligere tiltak bør redusere risikoen før behandlingen settes i gang.
+            description: Risikoen må reduseres med ytterligere tiltak før behandlingen settes i gang.
         color: '#FEF08A'
       - ref_id: unacceptable
         label: Unacceptable
@@ -225,7 +225,8 @@ objects:
               controllo.
           nb:
             label: Uakseptabel
-            description: Risikoen er ikke akseptabel. Reduser den, eller rådfør deg med tilsynsmyndigheten.
+            description: Risikoen er ikke akseptabel. Reduser den, eller forhåndsdrøft behandlingen med
+              tilsynsmyndigheten.
         color: '#FCA5A5'
       grid:
       - - acceptable
@@ -260,7 +261,7 @@ objects:
           description: Il rischio rimane inaccettabile anche dopo l’attuazione delle misure previste.
             L’articolo 36 del GDPR richiede la consultazione preventiva dell’autorità di controllo.
         nb:
-          label: 'Restrisiko uakseptabel: rådfør deg med tilsynsmyndigheten'
+          label: 'Restrisiko uakseptabel: forhåndsdrøft med tilsynsmyndigheten'
           description: En risiko er fortsatt uakseptabel når de planlagte tiltakene er på plass. GDPR
             art. 36 krever forhåndsdrøfting med tilsynsmyndigheten.
     pages:
@@ -541,7 +542,7 @@ objects:
             it:
               text: È presente un contratto che definisce gli obblighi di ciascuno dei soggetti indicati?
             nb:
-              text: Finnes det en avtale som fastsetter pliktene til hver av disse partene?
+              text: Er det inngått en avtale med hver av disse partene som fastsetter pliktene deres?
         urn:intuitem:risk:qf_page:dpia:rights:question:transfers:
           type: text
           text: Do the safeguards listed protect the data transferred outside the EU adequately?
@@ -1096,7 +1097,7 @@ objects:
             it:
               text: Quali rischi per gli interessati derivano dalla progettazione stessa del trattamento?
             nb:
-              text: Hvilken risiko skaper behandlingen i seg selv?
+              text: Hvilken risiko skaper behandlingen gjennom selve utformingen?
         urn:intuitem:risk:qf_page:dpia:by_design:question:measures:
           type: object_reference
           text: Which measures treat them?
@@ -1124,7 +1125,7 @@ objects:
             previsto (profilazione, monitoraggio eccessivo, decisioni automatizzate non eque…), indipendentemente
             dagli incidenti di sicurezza.
         nb:
-          name: 'Risiko: innebygd risiko'
+          name: 'Risiko: utformingsrisiko'
           description: Risiko som behandlingen skaper for de registrerte selv når alt fungerer som tiltenkt
             (profilering, overdreven overvåking, urettferdige automatiserte avgjørelser …), utover sikkerhetshendelser.
     - urn: urn:intuitem:risk:qf_page:dpia:validation
@@ -1188,7 +1189,7 @@ objects:
               it:
                 value: Procedere con il trattamento
               nb:
-                value: Gjennomfør
+                value: Gå videre
           - urn: urn:intuitem:risk:qf_page:dpia:validation:question:decision:choice:proceed_conditionally
             value: Proceed with conditions
             translations:
@@ -1197,7 +1198,7 @@ objects:
               it:
                 value: Procedere a determinate condizioni
               nb:
-                value: Gjennomfør på vilkår
+                value: Gå videre med vilkår
           - urn: urn:intuitem:risk:qf_page:dpia:validation:question:decision:choice:consult_sa
             value: Consult the supervisory authority
             translations:
@@ -1206,7 +1207,7 @@ objects:
               it:
                 value: Consultare l’autorità di controllo
               nb:
-                value: Rådfør deg med tilsynsmyndigheten
+                value: Forhåndsdrøft med tilsynsmyndigheten
           - urn: urn:intuitem:risk:qf_page:dpia:validation:question:decision:choice:abandon
             value: Abandon
             translations:
@@ -1215,7 +1216,7 @@ objects:
               it:
                 value: Abbandonare il trattamento
               nb:
-                value: Avstå fra behandlingen
+                value: Ikke gå videre
           translations:
             fr:
               text: Décision
